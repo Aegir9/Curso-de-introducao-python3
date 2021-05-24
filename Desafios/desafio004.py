@@ -1,0 +1,12 @@
+n = input('Digite algo: ')
+print(type(n))
+
+print("É númerico: {}".format(n.isnumeric()))
+print("É decimal: {}".format(n.isdecimal()))
+print("É alfabetico: {}".format(n.isalpha()))
+print("É alfanumerico: {}".format(n.isalnum()))
+print("É title: {}".format(n.istitle()))
+print("É tudo maiusculo: {}".format(n.isupper()))
+print("É tudo minusculo: {}".format(n.islower()))
+print("Só tem espaços: {}".format(n.isspace()))
+print("Pode ser impresso: {}".format(n.isprintable()))
